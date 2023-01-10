@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:id="@+id/recycler_row_imageview"
+        android:src="@drawable/kto2"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Kullanici Adi"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:id="@+id/kullaniciText"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Kullanici Emaili"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:id="@+id/emailText"
+        >
+    </TextView>
+</LinearLayout>
